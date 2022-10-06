@@ -1,13 +1,21 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.gameName{
+  text-align: center;
+  padding: 20px;
+  color: red;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.GameContainer{
+  margin: auto;
+  width: 50%;
+ display: flex;
+ padding: 30px; 
+}
+.GameBoard{
+width: 560px;
+height: 560px;
+display: flex;
+flex-wrap: wrap;
+}
+.GameBoard img{  
+  width: 70px;
+  height: 70px;
 }
